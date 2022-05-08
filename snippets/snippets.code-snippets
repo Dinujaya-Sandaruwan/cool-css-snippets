@@ -1,0 +1,208 @@
+{
+    "typo-head": {
+		"prefix": "typo-head",
+		"body": [
+			"h1{font-size: clamp(30px, 8vw, 80px);}",
+            " ",
+			"h2{font-size: clamp(22.5px, 6vw, 60px);}",
+            " ",
+			"h3{font-size: clamp(18.75px, 5vw, 50px);}",
+            " ",
+			"h4{font-size: clamp(11.25px, 3vw, 30px);}",
+            " ",
+			"h5{font-size: clamp(9.375px, 2vw, 25px);}",
+            " ",
+			"h6{font-size: clamp(10px, 2vw, 20px);}",
+            " ",
+		],
+		"description": "Full Responcive Heddings"
+	},
+
+    "typo-pera": {
+		"prefix": "typo-pera",
+		"body": [
+			"p{font-size: clamp(10px, 2vw, 20px);}",
+		],
+		"description": "Full Responcive Heddings"
+	},
+
+	"full-bg": {
+		"prefix": "full-bg",
+		"body": [
+			"html {",
+			"\t background: url('$1') no-repeat center center fixed;",
+			"\t -webkit-background-size: cover;",
+			"\t -moz-background-size: cover;",
+			"\t -o-background-size: cover;",
+			"\t background-size: cover;",
+			"}",
+		],
+		"description": "Full Responcive Heddings"
+	},
+	
+	"center-flex": {
+		"prefix": "center-flex",
+		"body": [
+			".$class{",
+			"\t display: flex;",
+			"\t justify-content: center;",
+			"\t align-items: center;",
+			"}"
+		],
+		"description": "horizontally and vertically center div using flex"
+	},
+
+	"center-absolute": {
+		"prefix": "center-absolute",
+		"body": [
+			".$class{",
+			"\t position: absolute;",
+			"\t top: 50%;",
+			"\t left: 50%;",
+			"\t transform: translate(-50%, -50%);",
+			"}"
+		],
+		"description": "horizontally and vertically center div using position absolute"
+	},
+
+	"root-bootstrap-colors": {
+		"prefix": "root-bootstrap-colors",
+		"body": [
+			":root{",
+			"\t --color-primary: #007bff;",
+			"\t --color-secondary: #6c757d;",
+			"\t --color-success: #28a745;",
+			"\t --color-danger: #dc3545;",
+			"\t --color-warning: #ffc107;",
+			"\t --color-info: #17a2b8;",
+			"\t --color-light: #f8f9fa;",
+			"\t --color-dark: #343a40;",
+			"\t --color-white: #ffffff;",
+			"}"
+		],
+		"description": "Add Boostrap Colors to variables (root)"
+	},
+
+	"root-google-fonts": {
+		"prefix": "root-google-fonts",
+		"body": [
+			"/* Roboto */",
+			"@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');",
+			"",
+			"/* Open Sans */",
+			"@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');",
+			"",
+			"/* Nunito Sans */",
+			"@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,700&display=swap');",
+			"",
+
+
+			":root{",
+			"\t --regular: 400;",
+			"\t --bold: 700;",
+			"\t ",
+			"\t --font-roboto:'Roboto', sans-serif;",
+			"\t --font-open-sans:'Open Sans', sans-serif;",
+			"\t --font-nunito-sans: 'Nunito Sans', sans-serif;",
+			"}"
+		],
+		"description": "Add google fonts to variables (root)"
+	},
+
+	"root-full": {
+		"prefix": "root-full",
+		"body": [
+			"/* Roboto */",
+			"@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');",
+			"",
+			"/* Open Sans */",
+			"@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');",
+			"",
+			"/* Nunito Sans */",
+			"@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,700&display=swap');",
+			"",
+
+
+			":root{",
+			"\t --color-primary: #007bff;",
+			"\t --color-secondary: #6c757d;",
+			"\t --color-success: #28a745;",
+			"\t --color-danger: #dc3545;",
+			"\t --color-warning: #ffc107;",
+			"\t --color-info: #17a2b8;",
+			"\t --color-light: #f8f9fa;",
+			"\t --color-dark: #343a40;",
+			"\t --color-white: #ffffff;",
+			"\t",
+			"\t --regular: 400;",
+			"\t --bold: 700;",
+			"\t ",
+			"\t --font-roboto:'Roboto', sans-serif;",
+			"\t --font-open-sans:'Open Sans', sans-serif;",
+			"\t --font-nunito-sans: 'Nunito Sans', sans-serif;",
+			"}"
+		],
+		"description": "create full root selector variables"
+	},
+
+	"div.background": {
+		"prefix": "div.background",
+		"body": [
+			".$class{",
+			"\t background:url();",
+			"\t background-size:cover;",
+			"\t background-position:center center;",
+			"\t background-attachment:fixed;",
+			"\t /* height: 500px; */",
+			"}"
+		],
+		"description": "Add background Image to div"
+	},
+
+	"media-min": {
+		"prefix": "media-min",
+		"body": [
+			"@media only screen and (min-width: $1 ){",
+			"\t $2",
+			"}",
+		],
+		"description": "Create media queries (min-width)"
+	},
+
+	"media-max": {
+		"prefix": "media-max",
+		"body": [
+			"@media only screen and (max-width: $1 ){",
+			"\t $2",
+			"}",
+		],
+		"description": "Create media queries (max-width)"
+	},
+
+	"split-style": {
+		"prefix": "split-style",
+		"body": [
+			"/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::",
+			"\t \t \t \t \t \t \t $1",
+			":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */",
+		],
+		"description": "Create a split between css styles"
+	},
+
+	"animation": {
+		"prefix": "animation",
+		"body": [
+			"@keyframes $animation_name {",
+			"\t 0% {",
+			"\t \t ",
+			"\t }",
+			"\t 100% {",
+			"\t \t ",
+			"\t }",
+			"}",
+		],
+		"description": "Create a keyframe animation"
+	},
+
+
+}
