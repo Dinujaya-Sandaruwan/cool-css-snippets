@@ -2,32 +2,45 @@
     "name": "cool-css-snippets",
     "displayName": "Cool CSS Snippets",
     "description": "This extension includes Snippets that you need to code very easily in css",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "DinujayaSandaruwan",
     "engines": {
         "vscode": "^1.67.0"
     },
     "author": {
         "name": "Dinujaya Sandaruwan"
-      },
+    },
     "categories": [
         "Snippets"
     ],
     "icon": "images/icon.png",
     "license": "SEE LICENSE IN LICENSE.txt",
     "bugs": {
-      "url": "https://github.com/Dinujaya-Sandaruwan/cool-css-snippets/issues",
-      "email": "info@dinujaya.me"
+        "url": "https://github.com/Dinujaya-Sandaruwan/cool-css-snippets/issues",
+        "email": "info@dinujaya.me"
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/Dinujaya-Sandaruwan/cool-css-snippets"
+        "type": "git",
+        "url": "https://github.com/Dinujaya-Sandaruwan/cool-css-snippets"
     },
-    "homepage": "https://github.com/Dinujaya-Sandaruwan/cool-css-snippets/blob/main/README.md"
-    ,
+    "homepage": "https://github.com/Dinujaya-Sandaruwan/cool-css-snippets/blob/main/README.md",
     "keywords": [
-        "css","scss","dinujaya","dinujaya sandaruwan","css snippets","css code help","css help","css code","scss help","css compiler","cool css Snippets","cool snippets","snippets","css emmet","emmet help","emmet css"
-        
+        "css",
+        "scss",
+        "dinujaya",
+        "dinujaya sandaruwan",
+        "css snippets",
+        "css code help",
+        "css help",
+        "css code",
+        "scss help",
+        "css compiler",
+        "cool css Snippets",
+        "cool snippets",
+        "snippets",
+        "css emmet",
+        "emmet help",
+        "emmet css"
     ],
     "contributes": {
         "snippets": [
