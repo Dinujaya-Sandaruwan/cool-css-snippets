@@ -1,6 +1,6 @@
 # Cool CSS Snippets
 > This extension includes Snippets that you need to code very easily in css
-gg
+
 <hr>
 
 | Command   |      What does that mean?     |
